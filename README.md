@@ -14,7 +14,7 @@ way, your call site barely changes.
 ## Install
 
 ```bash
-pip install llm-guardrails
+pip install llm-guardrails-middleware
 ```
 
 Only dependency is `pydantic>=2`. No provider SDKs are required - `llm-guardrails` never

@@ -3,14 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "llm-guardrails"
+name = "llm-guardrails-middleware"
 version = "0.1.0"
 description = "Drop-in guardrails wrapper for LLM API calls: PII redaction, prompt-injection detection, output schema validation, and usage/latency logging."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-    { name = "LLM Guardrails Contributors" },
+    { name = "Obinna ThankGod Okeke", email = "tobinna4@gmail.com" },
 ]
 keywords = [
     "llm",
@@ -46,8 +46,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/example/llm-guardrails"
-Issues = "https://github.com/example/llm-guardrails/issues"
+Homepage = "https://github.com/tonasoft/llm-guardrails"
+Issues = "https://github.com/tonasoft/llm-guardrails/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/llm_guardrails"]
